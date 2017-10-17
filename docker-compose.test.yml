@@ -1,0 +1,34 @@
+version: '2' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  web-server: # name of the service
+    build:
+      context: . # specify the directory of the Dockerfile
+      dockerfile: ./Dockerfile.test # the name of the Dockerfile
+    image: rubylens-web-test # Name the build image with this name
+    container_name: rubylens-web-test # the container will be accesible in the network by the same host name
+    volumes:
+      - .:/usr/app/src # Mount the host's code's folder as Volume in container
+      - /usr/app/src/node_modules # This will hide the node_modules of the host and give us a place to have the machine's node_modules
+    ports:
+      - "80:3000" # specify port forewarding host:container
+    links:
+      - database # db is reachable from web at the hostnames db and database
+    env_file:
+      - ./env/.env.test
+    stdin_open: true
+    tty: true
+
+  database: # name of the service
+    container_name: rubylens-db-test
+    build:
+      context: ./server/database/
+      dockerfile: Dockerfile.dev # use same Dockerfile as dev
+    image: rubylens-db-test
+    environment:
+      - DB_NAME=rubylens
+      - DB_USER=rubylens
+      - DB_PASS=changethis
+    ports:
+      - "5433:5432" # specify port forewarding

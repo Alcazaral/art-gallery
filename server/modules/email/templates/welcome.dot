@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Rubylens</title>
+</head>
+<body>
+  <div width="100%" style="background:#f0f0f0;font-family:'Helvetica Neue',sans-serif;min-height:100%;margin:0 auto;padding:0;width:100%" bgcolor="#f0f0f0">
+    <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="background:#f0f0f0;border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:fixed" bgcolor="#f0f0f0">
+      <tbody>
+        <tr>
+          <td valign="top">
+            <center style="width:100%">
+              <div style="margin:auto;max-width:600px">
+                <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;max-width:600px;table-layout:fixed">
+                  <tbody><tr>
+                    <td style="padding:20px 0;text-align:center" align="center">
+                      <a href="{{=it.siteUrl}}" target="_blank">
+                        <img width="150" alt="Ruby Lens" src="{{=it.logoUrl}}" style="border:0;min-height:auto;line-height:100%;max-width:600px!important;outline:none;text-decoration:none"></a>
+                      </td>
+                    </tr>
+                  </tbody></table>
+
+                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="background:#ffffff;border-collapse:collapse;border-spacing:0;margin:0 auto;max-width:600px;table-layout:fixed" bgcolor="#ffffff">
+                    <tbody><tr>
+                      <td>
+                        <table border="0" cellpadding="30" cellspacing="0" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:auto">
+                          <tbody><tr>
+                            <td valign="top">
+
+                              <div style="border-bottom-color:#eee;border-bottom-style:solid;border-bottom-width:1px;color:#444;font-family:'Helvetica Neue',sans-serif;font-size:14px;line-height:150%;margin-bottom:20px;padding-bottom:25px">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:auto">
+                                  <tbody><tr>
+                                    <td>
+                                      <h1 style="color:#444;display:block;font-family:'Helvetica Neue',sans-serif;font-size:18px;font-weight:500;line-height:1.3;margin:0">
+                                        Hey {{=it.username}},
+                                      </h1>
+                                    </td>
+                                    <td width="58" align="right">
+                                      <a rel="contact" title="{{=it.username}}" href="{{=it.userImageUrl}}" style="color:#3a8bbb;font-family:'Helvetica Neue',sans-serif;font-weight:500;text-decoration:none" target="_blank"><img width="48" height="48" src="{{=it.userImageUrl}}" style="border:0;border-radius:50%;display:inline;min-height:auto;line-height:100%;outline:none;text-decoration:none;width:48px"></a>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                              </div>
+
+
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:auto">
+                                <tbody>
+                                  <tr>
+                                  <td>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">Welcome to the world of Ruby Lens— a community of miniature painters looking to be inspired and share photos of their work for feedback and awards.</p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      I'm excited to show you the ropes of navigating Ruby Lens.<br/>
+                                      Here’s what you need to know.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      <h3>Become Inspired</h3>
+                                      <a href="{=it.siteUrl}">Browse and Discover</a>
+                                      As painters ourselves, we love finding and saving photos of beautifully painted minis. The photo gallery on Ruby Lens is to help you do just that.
+It has photos of minis painted by the user and images users have found online that they wanted to help share with the world— giving the artist even more popularity.
+You can filter mini photos by game, army, for sale, competition winners and more. From there, you can sort by popularity and recency.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      [Gif of browsing, filtering, liking, and commenting on photos]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Find a photo of yours that someone else posted? No problem.<br />
+                                      Select the "claim photo" button and give you ownership of the image.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      [Gif of claiming photo]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      <h3>Bucketing for Organization</h3>
+                                      Buckets are your personal collections of mini’s that you’d like to save and refer to later.<br />
+                                      Hover over an image that you’d like to save into a bucket. Then, just select what bucket you’d like to put it in and you’re done! You can find, edit, and add your buckets on your profile page.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      [Gif of bucketing images]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Your Profile
+                                      Ruby Lens wouldn’t be an amazing community without you.<br/>
+                                      Add your bio, links to your social media and portfolio, and manage your buckets to organize photos you’ve saved.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      [Gif of editing profile]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Upload Images of another painters work<br />
+                                      Want to upload images of minis that you didn’t paint to spread the word about a painter?<br />
+                                      Click on the Upload button to upload images, specify that it’s someone else work, and add the URL of where you found it. Easy.<br />
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      [Gif of uploading photos, selecting not original artist]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Display Your Masterfully Crafted Minis<br />
+                                      Upload images of your work<br />
+                                      Far too many talented painters go unnoticed without recognition of the blood, sweat, and tears they put into painting their minis. Ruby Lens helps give you the exposure and feedback you deserve.<br />
+                                      Click on the Upload button to upload images, name it and add any other details that you’d like.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      [Gif of uploading photos, selecting original artist]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Do you have a lot of images that you’d like us to upload for you? We’d be happy to do it for you. Send us an email with the attached images, or a link to where you’d like us to get the images from, to support@rubylens.com.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Pro tip: Add your website to your profile page to tell people where they can go to hire you for commission work.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Bask in Your Glory<br />
+                                      Once you upload a photo, you can see how many views, likes, and comments your photo gets on the photo details page by clicking on the photo.
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      [Gif of showing views, likes, and commenting]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Win Awards
+                                      Ruby Lens regularly holds contests to recognize painters from around the world.
+                                      [Show photo of medals]
+                                      The details for every competition is on the Competition Page.
+                                      To enter into a competition, just select a competition from the drop down list on your Photo details when uploading a new photo.
+                                      [Gif of uploading photos and showing it on the contest page]
+                                    </p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">
+                                      Have any questions?
+                                      Want to suggest ways for us to improve?
+                                      Email me at chris@rubylens.com and I’ll personally get back to you within 1 business day.
+                                    </p>
+
+
+                                      <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:15px">
+                                        Happy painting,<br>
+                                        <br>
+                                        Chris Kilbourn,<br>
+                                        Founder & CEO,<br>
+                                        Ruby Lens<br>
+                                        <img width="48" height="48" src="http://localhost:3000/public/ceo.jpg" style="border:0;border-radius:50%;display:inline;min-height:auto;line-height:100%;outline:none;text-decoration:none;width:48px;margin-top: 10px;">
+                                      </p>
+
+                                      </td>
+                                    </tr>
+                                  </tbody></table>
+
+                                </td>
+                              </tr>
+                            </tbody></table>
+
+
+                          </td>
+                        </tr>
+                      </tbody></table>
+
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;max-width:600px;table-layout:fixed">
+                        <tbody><tr>
+                          <td style="color:#999999;font-family:'Helvetica Neue',sans-serif;font-size:13px;line-height:1.6;padding:30px 5%;text-align:center" align="center">
+                            <a href="{{=it.siteUrl}}" style="color:#999999!important;text-decoration:none!important" target="_blank">
+                              <img width="50" height="50" alt="Ruby Lens" src="{{=it.logoCircleUrl}}" style="border:0;display:inline;min-height:auto;line-height:100%;outline:none;text-decoration:none">
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody></table>
+
+
+                    </div>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </body>
+      </html>

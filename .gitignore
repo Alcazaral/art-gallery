@@ -1,0 +1,13 @@
+env/*
+!env/.env.default
+
+public/assets/fonts/ruby-icons.*
+app/icons/_styles.scss
+node_modules/*
+build/*
+
+npm-debug.log
+
+p.sublime-workspace
+ruby-lens.sublime-project
+ruby-lens.sublime-workspace

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Rubylens</title>
+</head>
+<body>
+  <div width="100%" style="background:#f0f0f0;font-family:'Helvetica Neue',sans-serif;min-height:100%;margin:0 auto;padding:0;width:100%" bgcolor="#f0f0f0">
+    <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="background:#f0f0f0;border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:fixed" bgcolor="#f0f0f0">
+      <tbody>
+        <tr>
+          <td valign="top">
+            <center style="width:100%">
+              <div style="margin:auto;max-width:600px">
+                <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;max-width:600px;table-layout:fixed">
+                  <tbody><tr>
+                    <td style="padding:20px 0;text-align:center" align="center">
+                      <a href="{{=it.siteUrl}}" target="_blank">
+                        <img width="150" alt="Ruby Lens" src="{{=it.logoUrl}}" style="border:0;min-height:auto;line-height:100%;max-width:600px!important;outline:none;text-decoration:none"></a>
+                      </td>
+                    </tr>
+                  </tbody></table>
+
+                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="background:#ffffff;border-collapse:collapse;border-spacing:0;margin:0 auto;max-width:600px;table-layout:fixed" bgcolor="#ffffff">
+                    <tbody><tr>
+                      <td>
+                        <table border="0" cellpadding="30" cellspacing="0" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:auto">
+                          <tbody><tr>
+                            <td valign="top">
+
+                              <div style="border-bottom-color:#eee;border-bottom-style:solid;border-bottom-width:1px;color:#444;font-family:'Helvetica Neue',sans-serif;font-size:14px;line-height:150%;margin-bottom:20px;padding-bottom:25px">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:auto">
+                                  <tbody><tr>
+                                    <td>
+                                      <h1 style="color:#444;display:block;font-family:'Helvetica Neue',sans-serif;font-size:18px;font-weight:500;line-height:1.3;margin:0">
+                                        Hi there,
+                                        <span style="color:#999;display:block;font-size:15px;font-weight:normal">Welcome to Ruby Lens!</span>
+                                      </h1>
+                                    </td>
+                                    <td width="58" align="right">
+                                      <a rel="contact" title="user" href="{{=it.userImageUrl}}" style="color:#3a8bbb;font-family:'Helvetica Neue',sans-serif;font-weight:500;text-decoration:none" target="_blank"><img width="48" height="48" src="{{=it.userImageUrl}}" style="border:0;border-radius:50%;display:inline;min-height:auto;line-height:100%;outline:none;text-decoration:none;width:48px"></a>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                              </div>
+
+
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;table-layout:auto">
+                                <tbody>
+                                  <tr>
+                                  <td>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">The fog of war is starting to clear and you are within reach of gaining full access to Ruby Lens.</p>
+
+                                    <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:0">Please take a second to confirm <a href="mailto:{{=it.email}}" target="_blank">{{=it.email}}</a> as your email address:</p>
+
+                                    <table cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse;border-spacing:0;margin:auto;table-layout:auto">
+                                      <tbody>
+                                        <tr>
+                                          <td style="background:#cb2129;border-radius:4px;text-align:center" align="center" bgcolor="#cb2129">
+                                            <a href="{{=it.confirmEmailUrl}}" style="background:#cb2129;border:15px solid #cb2129;border-radius:4px;color:#3a8bbb;display:block;font-family:'Helvetica Neue',sans-serif;font-size:13px;font-weight:500;line-height:1.1;text-align:center;text-decoration:none" target="_blank">
+                                              &nbsp;&nbsp;&nbsp;&nbsp;
+                                              <span style="color:#ffffff">
+                                                Confirm Email
+                                              </span>
+                                              &nbsp;&nbsp;&nbsp;&nbsp;
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                      <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:15px">Once you do, you’ll be able to upload photos, bucket photos to organize your inspiration and wield other cool features that require a valid email address.</p>
+
+
+                                      <p style="color:#555;font-size:16px;line-height:1.5;margin-bottom:15px;margin-top:15px">
+                                        Happy painting,<br>
+                                        <br>
+                                        Chris Kilbourn,<br>
+                                        Founder & CEO,<br>
+                                        Ruby Lens<br>
+                                        <img width="48" height="48" src="{{=it.ceoImageUrl}}" style="border:0;border-radius:50%;display:inline;min-height:auto;line-height:100%;outline:none;text-decoration:none;width:48px;margin-top: 10px;">
+                                      </p>
+
+                                      </td>
+                                    </tr>
+                                  </tbody></table>
+
+                                </td>
+                              </tr>
+                            </tbody></table>
+
+
+                          </td>
+                        </tr>
+                      </tbody></table>
+
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0 auto;max-width:600px;table-layout:fixed">
+                        <tbody><tr>
+                          <td style="color:#999999;font-family:'Helvetica Neue',sans-serif;font-size:13px;line-height:1.6;padding:30px 5%;text-align:center" align="center">
+<!--                             Ruby Lens LLC &nbsp;•&nbsp; 203 Washington Street #302 &nbsp;•&nbsp; Salem, MA 01970 USA
+                            <br>
+                            <br><br> -->
+                            <a href="{{=it.siteUrl}}" style="color:#999999!important;text-decoration:none!important" target="_blank">
+                              <img width="50" height="50" alt="Ruby Lens" src="{{=it.logoCircleUrl}}" style="border:0;display:inline;min-height:auto;line-height:100%;outline:none;text-decoration:none">
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody></table>
+
+
+                    </div>
+                  </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </body>
+      </html>

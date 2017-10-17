@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups-💰" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In---Forgot-Pass-Step-2-(Desktop)" transform="translate(-670.000000, -224.000000)">
+            <g id="Group" transform="translate(670.000000, 224.000000)">
+                <g id="Group-3">
+                    <path d="M160,80 C160,124.175736 124.175736,160 80,160 C35.8242644,160 0,124.175736 0,80 C0,35.8242644 35.8242644,0 80,0 C124.175736,-1.10261569e-14 160,35.8242644 160,80 Z" id="Shape" fill="#25282A"></path>
+                    <rect id="Rectangle-path" fill="#F1F1F1" x="27" y="41" width="106" height="78"></rect>
+                    <polygon id="Shape" fill="#C7C7C7" points="28 118 80 76 133 118"></polygon>
+                    <polygon id="Shape" fill="#000000" opacity="0.2" points="28 43 80 96 133 43"></polygon>
+                    <polygon id="Shape" fill="#F1F1F1" points="28 43 80 85 133 43"></polygon>
+                    <circle id="Oval" fill="#E4212B" cx="123.5" cy="50.5" r="16.5"></circle>
+                    <text id="1" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="20" font-weight="400" line-spacing="33" fill="#F1F1F1">
+                        <tspan x="118.44" y="54">1</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

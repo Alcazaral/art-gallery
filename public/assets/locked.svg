@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="101px" viewBox="0 0 71 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>locked</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.71346831%" y1="0%" x2="95.5180451%" y2="95.1434355%" id="linearGradient-1">
+            <stop stop-color="#FAFAFA" offset="0%"></stop>
+            <stop stop-color="#CACACA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mockups-💰" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In---Forgot-Pass-Step-1-(Desktop)" transform="translate(-714.000000, -249.000000)">
+            <g id="locked" transform="translate(714.000000, 251.000000)">
+                <g id="Capa_1">
+                    <g id="Group">
+                        <path d="M16,25 L16,19 C16,8.50304348 24.775,0 36,0 C46.225,0 55,8.50304348 55,19 L55,41" id="Shape" stroke="#9EA2A2" stroke-width="4"></path>
+                        <rect id="Rectangle-path" fill="url(#linearGradient-1)" x="0" y="41" width="71" height="57"></rect>
+                        <path d="M36,77 C33.25,77 31,74.6375 31,72 L31,61 C31,58.3625 33.25,56 36,56 C38.75,56 41,58.3625 41,61 L41,72 C41,74.6375 38.75,77 36,77 Z" id="Shape" fill="#9EA2A2"></path>
+                        <rect id="Rectangle-path" fill="#9EA2A2" x="0" y="88" width="71" height="11"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

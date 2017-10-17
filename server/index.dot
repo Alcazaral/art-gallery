@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ruby Lens</title>
+    <meta name="description" content="Games Art">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="shortcut icon" href="/public/logo/logo-circle.png" type="image/png">
+
+    {{? it.production }}
+    <link rel="stylesheet" href="/styles.css"/>
+    {{?}}
+
+    <script>
+      window.BOOTSTRAP_STATE = {{=it.state}};
+    </script>
+  </head>
+  <body>
+    <div id="app">{{=it.body}}</div>
+    <script src="/client_build.js"></script>
+  </body>
+</html>
